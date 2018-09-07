@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Roboto', sans-serif;
+}
 .wrapper{
     width: 95%;
     margin:1% auto;
@@ -9,30 +11,35 @@
     display: flex;
 }
 .texato{
-    
+
     flex-direction: row;
     justify-content: flex-start;
 }
+p{
+  color: #7f888f;
+}
+.texato span{
+  color: black;
+
+}
+.centro{
+  margin: 1em 0;
+}
 .navd ul{
-    font-size: 2em;
+    font-size: 1.5em;
     margin: 0em 0.4em;
-   
+
 }
 .navd ul li{
     display: inline-block;
     margin: 0em 0.4em;
     list-style-type: none;
-    
+
 }
-.grid{
-    display: grid;
-    grid-template-columns: 50%;
-    grid-template-rows: 50%;
-    
-}
+
 .text{
     width: 45%;
- 
+
 }
 .image{
     width: 45%;
@@ -41,9 +48,59 @@
     width: 90%;
     border-radius: 5%;
     display: flex;
-   
+
 }
 .centro{
     justify-content: space-around;
     display: flex;
+    align-items: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 0.8em;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.grid-item i{
+  margin: 20px;
+  color:  #DE765D;
+  font-size: 40px;
+}
+hr{
+  border-color: #7f888f;
+}
+.erat{
+  width: 20%;
+}
+
+.rh{
+  border: solid 4px #DE765D;
+
+}
+input[type="button"] {
+
+    margin: 8px;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    border-style: none;
+    padding: 10px 80px;
+    color: gray;
+
+}
+input[value="Rubi"].bordered {
+	background-color: white;
+	color: #DE765D;
+	border: 2px solid #DE765D;
+}
+input[value="Rubi"]:hover{
+
+    color: #ffffff;
+    background-color: #DE765D;
+
 }
