@@ -1,0 +1,49 @@
+
+.wrapper{
+    width: 95%;
+    margin:1% auto;
+}
+.wrapper header{
+    color:#b2b2b2;
+    justify-content: space-between;
+    display: flex;
+}
+.texato{
+    
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.navd ul{
+    font-size: 2em;
+    margin: 0em 0.4em;
+   
+}
+.navd ul li{
+    display: inline-block;
+    margin: 0em 0.4em;
+    list-style-type: none;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-template-rows: 50%;
+    
+}
+.text{
+    width: 45%;
+ 
+}
+.image{
+    width: 45%;
+}
+.image img{
+    width: 90%;
+    border-radius: 5%;
+    display: flex;
+   
+}
+.centro{
+    justify-content: space-around;
+    display: flex;
+}
